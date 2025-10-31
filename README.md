@@ -1,7 +1,3 @@
-Here's the updated README keeping your simple style:
-
----
-
 # Network-Agent Dynamics in Sports Systems
 
 **Code for Manuscript Review:** Impact of Immediate Interventions in Risk Propagation: Network Topology Effects on Sports System Vulnerability
@@ -73,4 +69,3 @@ MIT License
 
 ---
 
-- Kept everything else simple and concise
