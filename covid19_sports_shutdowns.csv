@@ -1,0 +1,13 @@
+League,Sport,Country_Region,Original_Start_Date,Suspension_Date,Restart_Date,Days_Delayed,Intervention_Type,Status,Wikipedia_Source
+NBA,Basketball,USA,10/22/2019,3/11/2020,7/30/2020,141,Immediate,Completed_modified_format,https://en.wikipedia.org/wiki/Suspension_of_the_2019-20_NBA_season
+NHL,Ice_Hockey,USA_Canada,10/2/2019,3/12/2020,8/1/2020,142,Delayed_1day,Completed_modified_format,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_sports
+MLB,Baseball,USA,NA,3/12/2020,7/23/2020,133,Delayed_1day,Shortened_season,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_sports
+Premier_League,Football,England,8/9/2019,3/13/2020,6/17/2020,96,Delayed_2days,Completed,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_association_football
+La_Liga,Football,Spain,8/16/2019,3/12/2020,6/11/2020,91,Delayed_1day,Completed,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_association_football
+Serie_A,Football,Italy,8/24/2019,3/9/2020,6/20/2020,103,Immediate_before_NBA,Completed,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_association_football
+Bundesliga,Football,Germany,8/16/2019,3/13/2020,5/16/2020,64,Delayed_2days,Completed,https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_association_football
+UEFA_Champions_League,Football,Europe,9/17/2019,3/17/2020,8/12/2020,148,Delayed_6days,Completed_single_venue,https://en.wikipedia.org/wiki/2019-20_UEFA_Champions_League
+UEFA_Europa_League,Football,Europe,9/19/2019,3/17/2020,8/5/2020,141,Delayed_6days,Completed_single_venue,https://en.wikipedia.org/wiki/2019-20_UEFA_Europa_League
+KBO,Baseball,South_Korea,NA,3/28/2020,5/5/2020,38,Delayed_17days,Completed_no_fans_initially,https://en.wikipedia.org/wiki/2020_KBO_League_season
+K_League_1,Football,South_Korea,NA,2/29/2020,5/8/2020,69,Early_before_NBA,Completed_no_fans_initially,https://en.wikipedia.org/wiki/2020_K_League_1
+KBL,Basketball,South_Korea,10/5/2019,3/24/2020,NA,NA,Delayed_13days,Season_cancelled,https://en.wikipedia.org/wiki/2019-20_KBL_season
