@@ -4,7 +4,7 @@
 
 ## Repository Contents
 
-This repository contains three simulation models and empirical validation supporting the manuscript:
+This repository contains four simulation models, empirical validation, and supplementary videos supporting the manuscript:
 
 ### Simulation Models
 
@@ -12,24 +12,45 @@ This repository contains three simulation models and empirical validation suppor
    - Demonstrates basic failure propagation without recovery
    - Shows network state evolution over 20 time steps
    - Animated visualization of cascade dynamics
+   - Generates Supplementary Video S1
 
 2. **Recovery Delay Analysis** (`recovery_delay_simulation.py`)
    - Compares immediate (r_t=1) vs delayed (r_t=2) interventions
    - Calculates Network Vulnerability Index (NVI)
    - Reproduces manuscript Figure 3
+   - Generates Supplementary Video S2
 
 3. **Network Topology Effects** (`network_topology_ternary.py`)
    - Ternary phase space analysis
    - Compares Regular, Random, Small-world, and Scale-free networks
    - Reproduces manuscript Figure 5 and Table 8
+   - Generates Supplementary Video S3
+
+4. **Integrated Network-Phase Space Visualization** (`network_phase_space_integrated.py`)
+   - Unified visualization of network failure synchronized with phase space evolution
+   - Scale-free network (n=35, m=2) embedded in ternary diagram
+   - Parametric recovery delay sweep (r_t = 1.0→5.0) over 150 frames
+   - Node colors transition blue→red while attractor migrates through phase space
+   - Demonstrates hub vulnerability under delayed intervention
+   - Generates Supplementary Video S4 (22.5 seconds, **video file included in repository**)
+   - Supports manuscript Figure 6 bottom panel interpretation
 
 ### Empirical Validation
 
-4. **Empirical Validation** (`Empirical_validation.py`)
+5. **Empirical Validation** (`Empirical_validation.py`)
    - Validates model predictions against real-world sports data
    - Generates Figure 6 (three-panel validation)
    - Statistical analysis: R² = 0.981, RMSE = 0.089
    - Reproduces manuscript Figure 6 and Table 7
+
+### Supplementary Videos
+
+- **Video S1** (`supplementary_video_S1.mp4`): Fundamental dynamics without recovery (10s)
+- **Video S2** (`supplementary_video_S2.mp4`): Recovery delay comparison (10s)
+- **Video S3** (`supplementary_video_S3.mp4`): Network topology effects (10s)
+- **Video S4** (`supplementary_video_S4.mp4`): Integrated network-phase space dynamics (22.5s) ✨ **NEW**
+
+All video files are included in the repository for peer review and can be regenerated using the corresponding Python scripts.
 
 ## Data Sources
 
@@ -58,14 +79,8 @@ pip install -r requirements.txt
 python fundamental_model_animated.py
 python recovery_delay_simulation.py
 python network_topology_ternary.py
+python network_phase_space_integrated.py  # NEW: Integrated visualization
 
 # Run empirical validation
 python Empirical_validation.py
 ```
-
-## License
-
-MIT License
-
----
-
