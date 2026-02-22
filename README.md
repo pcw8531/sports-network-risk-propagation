@@ -1,6 +1,6 @@
 # Network-Agent Dynamics in Sports Systems
 
-**Code for Manuscript Review:** Impact of Immediate Interventions in Risk Propagation: Network Topology Effects on Sports System Vulnerability
+**Code for Manuscript Review:** Network topology and recovery delay thresholds determine cascading failure vulnerability in sports systems
 
 ## Repository Contents
 
@@ -40,7 +40,7 @@ This repository contains four simulation models, empirical validation, and suppl
 5. **Empirical Validation** (`Empirical_validation.py`)
    - Validates model predictions against real-world sports data
    - Generates Figure 6 (three-panel validation)
-   - Statistical analysis: R² = 0.981, RMSE = 0.089
+   - Statistical analysis: R² = 0.981, RMSE = 0.029
    - Reproduces manuscript Figure 6 and Table 7
 
 ### Supplementary Videos
