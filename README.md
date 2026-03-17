@@ -43,7 +43,7 @@ This repository contains four simulation models, empirical validation, and suppl
    - Statistical analysis: R² = 0.981, RMSE = 0.029
    - Reproduces manuscript Figure 6 and Table 7
 
-### Supplementary Videos
+### Reference Videos
 
 - **Video S1** (`supplementary_video_S1.mp4`): Fundamental dynamics without recovery (10s)
 - **Video S2** (`supplementary_video_S2.mp4`): Recovery delay comparison (10s)
